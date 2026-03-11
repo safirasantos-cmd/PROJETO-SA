@@ -1,0 +1,178 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif,;
+}
+
+body{
+    background: linear-gradient(160deg,white, #4b0872);
+    color: rgb(127, 7, 131);
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    text-align: center;
+    margin-top:40px;
+}
+header h1{
+    font-size: 3rem;
+    margin-bottom: 10px;
+    letter-spacing:8px;
+    font-family: 'Press Start 2P', cursive;
+
+}
+h1{
+    color: #a03dc9;
+
+    text-shadow: 6px 6px 10px rgba(0,0,0,0.7);
+    text-shadow:
+    -2px -2px 0 rgb(20, 17, 17),
+    -2px -2px 0 rgb(20, 18, 18),
+    -2px -2px 0 rgb(15, 14, 14),
+    -2px -2px 0 rgb(15, 13, 13)
+}
+p{
+    color:rgb(20, 18, 18);
+}
+
+.subtitulo{
+    opacity:0.8;
+    color: black;
+}
+button{
+    margin:8px; 
+}
+
+/* CONTAINER */
+.container{
+    width: 90%;
+    max-width: 800px;
+    margin-top: 40px;
+}
+/* MENU */
+.menu-jogo{
+    background: #ffffff10;
+    padding:60px;
+    border-radius:12px;
+    margin-bottom: 30px;
+    backdrop-filter: blur(5px);
+}
+.menu-jogo h2{
+    margin-bottom: 20px;
+}
+.config{
+    margin-bottom: 20px;
+    display:flex;
+    flex-direction: column;
+    gap:8px;
+}
+select{
+    padding:8px;
+    border-radius: 6px;
+    border:none;
+}
+.opcoes{
+    display:flex;
+    gap:10px;
+}
+.modo{
+    padding: 10px 15px;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+    background: #6c63ff;
+    color:white;
+}
+.modo:hover{
+    background: #5750d6;
+}
+
+.comecar{
+    margin-top: 10;
+    padding:10px;
+    border:none;
+    border-radius: 8px;
+    background: #00c853;
+    color:white;
+    font-size: pointer;
+    width: 100%;
+}
+.comecar:hover{
+    background: #00a944;
+}
+
+/* ÁREA DO JOGO */
+
+.jogo{
+    background: #ffffff10;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+}
+.tema{
+    margin-bottom:20px;
+    font-size:18px;
+}
+
+/* PALAVRA */
+
+.palavra{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.palavra span{
+    border-bottom:3px solid white;
+    width: 30px;
+    text-align: center;
+}
+/* ENTRADA */
+
+.entrada{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+input{
+    padding: 0 20px;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 8px;
+    border:none;
+}
+input:focus{
+    outline: 2px solid #000000;
+}
+.tentar{
+    padding: 10px 20px;
+    border:none;
+    border-radius: 6px;
+    background: #dddddd;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+.tentar:hover{
+    background: #dddddd;
+}
+/* STATUS */
+
+.status{
+    margin-top:20px;
+    font-size: 16px;
+}
+.letras{
+    letter-spacing: 5px;
+}
+
+/*FINALMENTE CSS TERMINOU!!!!*/
